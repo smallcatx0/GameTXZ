@@ -1,0 +1,131 @@
+/* 
+**设置默认
+**
+*/
+body,div,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,form,input,textarea,p {
+	margin:0px;
+	padding:0px;
+	font-size:13px;
+}
+ul {
+	list-style:none;
+}
+img,a img {
+	border:none;
+}
+a {
+	text-decoration:none;
+}
+a:hover {
+	text-decoration:underline;
+}
+/*以上是设置默认样式 消除不同浏览器的兼容性显示差别*/
+body{height: 100%}
+header{
+	display: block;
+	width: 500px;
+	margin: 0px 28% ;
+	text-align: center;
+}
+header h1{
+	font-size: 52px;
+	font-weight: bold;
+	margin: 10px;
+}
+header .newgameButton{
+	display: block;
+	width: 100px;
+	margin: 0 auto;
+	padding: 10px;
+	background-color:#8f7a66;
+    color:pink;
+	font-size: 18px;
+    border-radius:13px;
+    text-decoration:none;
+}
+header .newgameButton:hover{
+    background-color:#9f8b77;
+}
+
+.GameBody{
+	position: relative;
+	width: 580px;
+	/*border: solid 1px gray;*/
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	padding-right:  50px;
+}
+
+.GameBody h2{
+	margin:  5px 0px;
+	margin-left: 30%;
+	font-size: 30px;
+}
+
+#gmap{
+	margin: 2px;
+	border:solid 3px #aabbcc;
+	background: url(source/images/GroundGravel_Concrete.png);
+
+}
+
+#gmap td{
+	width: 44px;
+	height: 44px;
+	border: solid 1px gray;
+	background-repeat: no-repeat;
+}
+.copy{
+	
+	text-align: center;
+	font-size: 12px;
+
+}
+
+/*游戏信息框*/
+.gameMsg{
+	position: absolute;
+	right: 15px;
+	top: 80px;
+	line-height: 28px;
+}
+#setpN{
+	padding: 0 10px;
+	width: 46px;
+	height: 30px;
+	font-size: 20px;
+	font-weight: 500;
+	color: red;
+	text-align: right;
+}
+#pass{
+	padding: 0 10px;
+	width: 20px;
+	height: 30px;
+	font-size: 25px;
+	font-weight: 500;
+	text-align: right;
+	border: none;
+	background-color: #fff;
+}
+.username{
+	padding: 2px 10px;
+	width: 60px;
+	height: 20px;
+	font-size: 16px;
+}
+
+footer{
+	position: fixed;
+	bottom:0;
+	left:0;
+	width: 100%;
+	text-align: center;
+	background-color: #ccc;
+	padding:15px 0; 
+	font-size: 16px;
+}
+footer a{
+	text-decoration: none;
+}
